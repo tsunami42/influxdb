@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/pkg/deep"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/pkg/deep"
 )
 
 func TestIteratorMapper(t *testing.T) {

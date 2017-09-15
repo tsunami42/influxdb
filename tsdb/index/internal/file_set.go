@@ -1,10 +1,10 @@
 package internal
 
 import (
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bloom"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/bloom"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/tsdb/index/tsi1"
 )
 
 // File is a mock implementation of a tsi1.File.

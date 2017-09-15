@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	internal "github.com/influxdata/influxdb/tsdb/internal"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	internal "github.com/tsunami42/influxdb/tsdb/internal"
+	"go.uber.org/zap"
 )
 
 // monitorStatInterval is the interval at which the shard is inspected

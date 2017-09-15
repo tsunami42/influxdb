@@ -1,4 +1,4 @@
-package tsdb // import "github.com/influxdata/influxdb/tsdb"
+package tsdb // import "github.com/tsunami42/influxdb/tsdb"
 
 import (
 	"bytes"
@@ -15,12 +15,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bytesutil"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/limiter"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/bytesutil"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/pkg/limiter"
+	"go.uber.org/zap"
 )
 
 var (

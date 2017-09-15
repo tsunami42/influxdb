@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/tsdb/index/tsi1"
 )
 
 // Ensure iterator can operate over an in-memory list of elements.

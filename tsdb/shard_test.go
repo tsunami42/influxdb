@@ -13,13 +13,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/deep"
-	"github.com/influxdata/influxdb/tsdb"
-	_ "github.com/influxdata/influxdb/tsdb/engine"
-	_ "github.com/influxdata/influxdb/tsdb/index"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/deep"
+	"github.com/tsunami42/influxdb/tsdb"
+	_ "github.com/tsunami42/influxdb/tsdb/engine"
+	_ "github.com/tsunami42/influxdb/tsdb/index"
+	"github.com/tsunami42/influxdb/tsdb/index/inmem"
 )
 
 func TestShardWriteAndIndex(t *testing.T) {

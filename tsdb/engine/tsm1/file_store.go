@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/models"
+	"go.uber.org/zap"
 )
 
 // TSMFile represents an on-disk TSM file.

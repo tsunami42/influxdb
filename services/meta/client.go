@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb"
+	"github.com/tsunami42/influxdb/influxql"
+	"go.uber.org/zap"
 
 	"golang.org/x/crypto/bcrypt"
 )

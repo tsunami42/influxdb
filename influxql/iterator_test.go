@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/pkg/deep"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/pkg/deep"
 )
 
 // Ensure that a set of iterators can be merged together, sorted by window and name/tag.

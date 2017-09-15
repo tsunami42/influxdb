@@ -3,8 +3,8 @@ package tsm1
 import (
 	"fmt"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/influxql"
+	"go.uber.org/zap"
 )
 
 func newLimitIterator(input influxql.Iterator, opt influxql.IteratorOptions) influxql.Iterator {

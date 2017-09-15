@@ -22,7 +22,7 @@ import (
 
 	"github.com/cespare/xxhash"
 	"github.com/dgryski/go-bits"
-	"github.com/influxdata/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/pkg/estimator"
 )
 
 // Current version of HLL implementation.

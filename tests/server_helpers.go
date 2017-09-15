@@ -16,11 +16,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influxd/run"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/httpd"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/toml"
+	"github.com/tsunami42/influxdb/cmd/influxd/run"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/services/httpd"
+	"github.com/tsunami42/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/toml"
 )
 
 // Server represents a test wrapper for run.Server.

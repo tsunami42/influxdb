@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
+	"github.com/tsunami42/influxdb/influxql"
 )
 
 var errUnexpected = errors.New("unexpected error")

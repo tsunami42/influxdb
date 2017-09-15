@@ -7,14 +7,14 @@ import (
 	"log"
 	"os"
 
-	"github.com/influxdata/influxdb/cmd"
-	"github.com/influxdata/influxdb/cmd/influx_inspect/dumptsi"
-	"github.com/influxdata/influxdb/cmd/influx_inspect/dumptsm"
-	"github.com/influxdata/influxdb/cmd/influx_inspect/export"
-	"github.com/influxdata/influxdb/cmd/influx_inspect/help"
-	"github.com/influxdata/influxdb/cmd/influx_inspect/report"
-	"github.com/influxdata/influxdb/cmd/influx_inspect/verify"
-	_ "github.com/influxdata/influxdb/tsdb/engine"
+	"github.com/tsunami42/influxdb/cmd"
+	"github.com/tsunami42/influxdb/cmd/influx_inspect/dumptsi"
+	"github.com/tsunami42/influxdb/cmd/influx_inspect/dumptsm"
+	"github.com/tsunami42/influxdb/cmd/influx_inspect/export"
+	"github.com/tsunami42/influxdb/cmd/influx_inspect/help"
+	"github.com/tsunami42/influxdb/cmd/influx_inspect/report"
+	"github.com/tsunami42/influxdb/cmd/influx_inspect/verify"
+	_ "github.com/tsunami42/influxdb/tsdb/engine"
 )
 
 func main() {

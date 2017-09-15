@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/internal"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/internal"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/services/meta"
+	"go.uber.org/zap"
 )
 
 func Test_Service_OpenClose(t *testing.T) {

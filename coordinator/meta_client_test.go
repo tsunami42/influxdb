@@ -3,8 +3,8 @@ package coordinator_test
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/services/meta"
 )
 
 // MetaClient is a mockable implementation of cluster.MetaClient.

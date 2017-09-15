@@ -7,9 +7,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/estimator/hll"
-	"github.com/influxdata/influxdb/pkg/rhh"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/pkg/estimator/hll"
+	"github.com/tsunami42/influxdb/pkg/rhh"
 )
 
 // MeasurementBlockVersion is the version of the measurement block.

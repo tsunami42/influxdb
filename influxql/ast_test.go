@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
+	"github.com/tsunami42/influxdb/influxql"
 )
 
 func BenchmarkQuery_String(b *testing.B) {
@@ -1066,8 +1066,8 @@ func TestParseString(t *testing.T) {
 		{
 			stmt: `DROP CONTINUOUS QUERY "my query" ON "my database"`,
 		},
-		// See issues https://github.com/influxdata/influxdb/issues/1647
-		// and https://github.com/influxdata/influxdb/issues/4404
+		// See issues https://github.com/tsunami42/influxdb/issues/1647
+		// and https://github.com/tsunami42/influxdb/issues/4404
 		//{
 		//	stmt: `DELETE FROM "my db"."my rp"."my measurement"`,
 		//},
@@ -1722,7 +1722,7 @@ func TestParse_Errors(t *testing.T) {
 // context required for security checks.  If a new statement is added, this
 // test will fail until it is categorized into the correct bucket below.
 func Test_EnforceHasDefaultDatabase(t *testing.T) {
-	pkg, err := importer.Default().Import("github.com/influxdata/influxdb/influxql")
+	pkg, err := importer.Default().Import("github.com/tsunami42/influxdb/influxql")
 	if err != nil {
 		fmt.Printf("error: %s\n", err.Error())
 		return

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/internal"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/internal"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/services/meta"
+	"go.uber.org/zap"
 )
 
 func TestService_OpenClose(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/tsdb"
+	"go.uber.org/zap"
 )
 
 // ringShards specifies the number of partitions that the hash ring used to

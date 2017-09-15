@@ -1,12 +1,12 @@
 // Package precreator provides the shard precreation service.
-package precreator // import "github.com/influxdata/influxdb/services/precreator"
+package precreator // import "github.com/tsunami42/influxdb/services/precreator"
 
 import (
 	"fmt"
 	"sync"
 	"time"
 
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // Service manages the shard precreation service.

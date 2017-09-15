@@ -20,15 +20,15 @@ import (
 
 	"github.com/bmizerany/pat"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/monitor"
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/uuid"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/monitor"
+	"github.com/tsunami42/influxdb/monitor/diagnostics"
+	"github.com/tsunami42/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/tsdb"
+	"github.com/tsunami42/influxdb/uuid"
+	"go.uber.org/zap"
 )
 
 const (

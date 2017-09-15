@@ -13,9 +13,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/models"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb"
+	"github.com/tsunami42/influxdb/models"
+	"go.uber.org/zap"
 )
 
 // Handler is an http.Handler for the OpenTSDB service.

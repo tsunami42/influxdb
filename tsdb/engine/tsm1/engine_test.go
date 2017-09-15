@@ -19,12 +19,12 @@ import (
 
 	"path"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/deep"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/deep"
+	"github.com/tsunami42/influxdb/tsdb"
+	"github.com/tsunami42/influxdb/tsdb/engine/tsm1"
+	"github.com/tsunami42/influxdb/tsdb/index/inmem"
 )
 
 /*

@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/coordinator"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/internal"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/coordinator"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/internal"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/tsdb"
+	"go.uber.org/zap"
 )
 
 const (

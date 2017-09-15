@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
+	"github.com/tsunami42/influxdb/influxql"
 
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/services/meta"
 )
 
 func Test_Data_DropDatabase(t *testing.T) {

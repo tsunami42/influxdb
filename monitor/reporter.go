@@ -1,6 +1,6 @@
 package monitor
 
-import "github.com/influxdata/influxdb/models"
+import "github.com/tsunami42/influxdb/models"
 
 // Reporter is an interface for gathering internal statistics.
 type Reporter interface {

@@ -8,10 +8,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bloom"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/mmap"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/bloom"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/pkg/mmap"
 )
 
 // IndexFileVersion is the current TSI1 index file version.

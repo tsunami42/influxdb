@@ -3,8 +3,8 @@ package udp
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/toml"
+	"github.com/tsunami42/influxdb/monitor/diagnostics"
+	"github.com/tsunami42/influxdb/toml"
 )
 
 const (

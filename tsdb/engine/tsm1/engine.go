@@ -1,5 +1,5 @@
 // Package tsm1 provides a TSDB in the Time Structured Merge tree format.
-package tsm1 // import "github.com/influxdata/influxdb/tsdb/engine/tsm1"
+package tsm1 // import "github.com/tsunami42/influxdb/tsdb/engine/tsm1"
 
 import (
 	"archive/tar"
@@ -17,16 +17,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/tsunami42/influxdb/tsdb/index/inmem"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bytesutil"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/limiter"
-	"github.com/influxdata/influxdb/tsdb"
-	_ "github.com/influxdata/influxdb/tsdb/index"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/bytesutil"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/pkg/limiter"
+	"github.com/tsunami42/influxdb/tsdb"
+	_ "github.com/tsunami42/influxdb/tsdb/index"
+	"go.uber.org/zap"
 )
 
 //go:generate tmpl -data=@iterator.gen.go.tmpldata iterator.gen.go.tmpl

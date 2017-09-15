@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/tsdb"
 )
 
 // IteratorCreator is an interface that combines mapping fields and creating iterators.

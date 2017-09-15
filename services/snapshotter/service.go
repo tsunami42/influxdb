@@ -1,5 +1,5 @@
 // Package snapshotter provides the meta snapshot service.
-package snapshotter // import "github.com/influxdata/influxdb/services/snapshotter"
+package snapshotter // import "github.com/tsunami42/influxdb/services/snapshotter"
 
 import (
 	"bytes"
@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb"
+	"github.com/tsunami42/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/tsdb"
+	"go.uber.org/zap"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/tsunami42/influxdb/services/meta"
 )
 
 type RequestInfo struct {

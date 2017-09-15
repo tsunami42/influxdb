@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/limiter"
-	"github.com/influxdata/influxdb/pkg/pool"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/limiter"
+	"github.com/tsunami42/influxdb/pkg/pool"
+	"go.uber.org/zap"
 )
 
 const (

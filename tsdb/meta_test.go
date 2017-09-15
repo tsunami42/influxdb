@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/tsdb"
+	"github.com/tsunami42/influxdb/tsdb/index/inmem"
 )
 
 // Ensure tags can be marshaled into a byte slice.

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/uber-go/zap"
+	"github.com/tsunami42/influxdb/models"
+	"go.uber.org/zap"
 )
 
 const (

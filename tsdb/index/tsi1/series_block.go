@@ -9,13 +9,13 @@ import (
 	"os"
 	"sort"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bloom"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/estimator/hll"
-	"github.com/influxdata/influxdb/pkg/mmap"
-	"github.com/influxdata/influxdb/pkg/rhh"
+	"github.com/tsunami42/influxdb/influxql"
+	"github.com/tsunami42/influxdb/models"
+	"github.com/tsunami42/influxdb/pkg/bloom"
+	"github.com/tsunami42/influxdb/pkg/estimator"
+	"github.com/tsunami42/influxdb/pkg/estimator/hll"
+	"github.com/tsunami42/influxdb/pkg/mmap"
+	"github.com/tsunami42/influxdb/pkg/rhh"
 )
 
 // ErrSeriesOverflow is returned when too many series are added to a series writer.
